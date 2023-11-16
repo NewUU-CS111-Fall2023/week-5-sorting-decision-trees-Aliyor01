@@ -34,6 +34,22 @@ int main() {
 }
 
     std::cout << "Task 5" << std::endl;
-    // call for task 5
+    int main() {
+    // Example usage
+    std::vector<std::vector<char>> matrix = {
+        {'b', 'b', 'w', 'b', 'b', 'y', 'w', 'w', 'w'},
+        {'b', 'b', 'w', 'w', 'b', 'y', 'y', 'b', 'b'},
+        {'y', 'y', 'y', 'w', 'w', 'b', 'b', 'b', 'b'},
+        {'y', 'e', 'y', 'e', 'y', 'w', 'w', 'b', 'b'},
+        {'w', 'b', 'b', 'w', 'w', 'b', 'w', 'w', 'w'},
+        {'b', 'b', 'w', 'w', 'w', 'w', 'w', 'y', 'w'}  // Corrected 'B' to 'b'
+    };
+
+    // Call the function from task_5.cpp
+    displayColors(matrix);
+
+    return 0;
+}
+
     return 0;
 }
