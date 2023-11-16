@@ -45,7 +45,22 @@ int main() {
 }
 
     std::cout << "Task 3" << std::endl;
-    // call for task 3
+    int main() {
+    // Example usage
+    std::vector<std::string> soldiers = {"Alpha", "Bravo", "Charlie", "Delta", "Echo"};
+
+    // Call the function from task_3.cpp
+    rearrangeSoldiers(soldiers);
+
+    // Display the rearranged list of soldiers
+    std::cout << "Rearranged list of soldiers:" << std::endl;
+    for (const std::string &soldier : soldiers) {
+        std::cout << soldier << std::endl;
+    }
+
+    return 0;
+}
+
     std::cout << "Task 4" << std::endl;
     
     int arr[] = {5, 2, 8, 1, 4, 6};
