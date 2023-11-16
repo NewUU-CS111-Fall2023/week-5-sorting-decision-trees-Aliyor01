@@ -14,7 +14,19 @@
 
 int main() {
     std::cout << "Task 1" << std::endl;
-    // call for task 1
+    int main() {
+    // Example usage
+    std::vector<std::string> books = {"C Programming", "Java Basics", "Python Mastery", "Algorithm Design"};
+    
+    // Sort the vector of strings using Bubble Sort
+    bubbleSort(books);
+
+    // Display the sorted books
+    displaySortedBooks(books);
+
+    return 0;
+}
+
     std::cout << "Task 2" << std::endl;
     // call for task 2
     std::cout << "Task 3" << std::endl;
