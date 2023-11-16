@@ -1,3 +1,10 @@
+/*
+ * Author: Ergashev Aliyorjon
+ * Date: 16.11.2023
+ * Name: main.cpp
+ */
+
+
 #include <iostream>
 #include <vector>
 #include <algorithm> // Include the algorithm header for swap
