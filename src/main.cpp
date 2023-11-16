@@ -28,7 +28,22 @@ int main() {
 }
 
     std::cout << "Task 2" << std::endl;
-    // call for task 2
+    int main() {
+    // Example usage
+    std::vector<int> denominations = {99, 19, 11};
+
+    // Call the function from task_2.cpp
+    selectionSort(denominations);
+
+    // Display the sorted list of denominations
+    std::cout << "Sorted list of denominations:" << std::endl;
+    for (const int &denomination : denominations) {
+        std::cout << denomination << " ";
+    }
+
+    return 0;
+}
+
     std::cout << "Task 3" << std::endl;
     // call for task 3
     std::cout << "Task 4" << std::endl;
