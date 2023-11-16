@@ -11,4 +11,4 @@
 
 void selectionSort(std::vector<int> &denominations);
 
-#endif
+#endif // TASK_2_H
