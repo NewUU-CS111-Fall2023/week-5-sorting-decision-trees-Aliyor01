@@ -62,7 +62,6 @@ int main() {
 }
 
     std::cout << "Task 4" << std::endl;
-    
     int arr[] = {5, 2, 8, 1, 4, 6};
     int size = sizeof(arr) / sizeof(arr[0]);
 
