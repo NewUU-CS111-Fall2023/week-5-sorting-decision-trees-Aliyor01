@@ -62,11 +62,13 @@ int main() {
 }
 
     std::cout << "Task 4" << std::endl;
-    int arr[] = {5, 2, 8, 1, 4, 6};
-    int size = sizeof(arr) / sizeof(arr[0]);
+    int main() {
+    // Sample input
+    int numbers[] = {5, 2, 8, 1, 4, 6};
+    int arraySize = sizeof(numbers) / sizeof(numbers[0]);
 
-    // Count elements where both neighboring elements are smaller
-    int result = countElementsWithSmallerNeighbors(arr, size);
+    // Call the function from task_4.cpp
+    int result = countElementsWithSmallerNeighbors(numbers, arraySize);
 
     // Display the result
     std::cout << "Count of elements with both smaller neighbors: " << result << std::endl;
