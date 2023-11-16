@@ -11,5 +11,7 @@
 #include <string>
 
 void bubbleSort(std::vector<std::string> &books);
+void displaySortedBooks(const std::vector<std::string> &books);
 
-#endif
+#endif // TASK_1_H
+
