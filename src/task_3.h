@@ -1,3 +1,9 @@
+/*
+ * Author: Ergashev Aliyorjon
+ * Date: 16.11.2023
+ * Name: main.cpp
+ */
+
 #ifndef TASK_3_H
 #define TASK_3_H
 
